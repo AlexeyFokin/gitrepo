@@ -1,0 +1,50 @@
+,Pin Name,Pins,Pin Type^{(1)},Functions description
+,BOOT0,44,I,Default: BOOT0
+,NRST,7,I/O,Default: NRST
+,PA0-WKUP,10,I/O,"Default: PA0 Alternate: USART0_CTS^{(3)} , USART1_CTS^{(4)} , CMP_OUT, I2C1_SCL^{(5)} Additional: ADC_IN0, CMP_IM6, RTC_TAMP1, WKUP0"
+HA,PA1,11,I/O,"Default: PA1 Alternate: USART0_RTS/USART0_DE^{(3)} , USART1_RTS/USART1_DE^{(4)} , I2C1_SDA^{(5)} , EVENTOUT, TIMER14_CH0_ON^{(5)} Additional: ADC_IN1, CMP_IP"
+GL,PA10,31,I/O,"Default: PA10 Alternate: USART0_RX, TIMER0_CH2, TIMER16_BRKIN, I2C0_SDA"
+,PA11,32,I/O,"Default: PA11 Alternate: USART0_CTS, TIMER0_CH3, CMP_OUT, EVENTOUT, SPI1_IO2^{(5)} , I2C0_SMBA, I2C1_SCL^{(5)}"
+,PA12,33,I/O,"Default: PA12 Alternate: USART0_RTS/USART0_DE, TIMER0_ETI, EVENTOUT, SPI1_IO3^{(5)} , I2C0_TXFRAME, I2C1_SDA^{(5)}"
+SWDIO,PA13,34,I/O,"Default: PA13/SWDIO Alternate: SWDIO, IFRP_OUT, SPI1_MISO^{(5)}"
+SWCLK,PA14,37,I/O,"Default: PA14/SWCLK Alternate: USART0_TX^{(3)} , USART1_TX^{(4)} , SWCLK, SPI1_MOSI^{(5)}"
+,PA15,38,I/O,"Default: PA15 Alternate: SPI0_NSS, I2S0_WS, USART0_RX^{(3)} , USART1_RX^{(4)} , SPI1_NSS^{(5)} , EVENTOUT"
+TX,PA2,12,I/O,"Default: PA2 Alternate: USART0_TX^{(3)} , USART1_TX^{(4)} , TIMER14_CH0^{(5)} Additional: ADC_IN2, CMP_IM7"
+RX,PA3,13,I/O,"Default: PA3 Alternate: USART0_RX^{(3)} , USART1_RX^{(4)} , TIMER14_CH1^{(5)} Additional: ADC_IN3"
+VBat,PA4,14,I/O,"Default: PA4 Alternate: SPI0_NSS, I2S0_WS, USART0_CK^{(3)} , USART1_CK^{(4)} , TIMER13_CH0, SPI1_NSS^{(5)} Additional: ADC_IN4, CMP_IM4"
+Button,PA5,15,I/O,"Default: PA5 Alternate: SPI0_SCK, I2S0_CK Additional: ADC_IN5, CMP_IM5"
+IBat,PA6,16,I/O,"Default: PA6 Alternate: SPI0_MISO, I2S0_MCK, TIMER2_CH0, TIMER0_BRKIN, TIMER15_CH0, EVENTOUT, CMP_OUT Additional: ADC_IN6"
+,PA7,17,I/O,"Default: PA7 Alternate: SPI0_MOSI, I2S0_SD, TIMER2_CH1, TIMER13_CH0, TIMER0_CH0_ON, TIMER16_CH0, EVENTOUT Additional: ADC_IN7"
+YL,PA8,29,I/O,"Default: PA8 Alternate: USART0_CK, TIMER0_CH0, CK_OUT, USART1_TX^{(4)} , EVENTOUT"
+,PB0,18,I/O,"Default: PB0 Alternate: TIMER2_CH2, TIMER0_CH1_ON, USART1_RX^{(4)} , EVENTOUT Additional: ADC_IN8"
+,PB1,19,I/O,"Default: PB1 Alternate: TIMER2_CH3, TIMER13_CH0, TIMER0_CH2_ON, SPI1_SCK^{(5)} Additional: ADC_IN9"
+SelfHold,PB2,20,I/O,Default: PB2 Alternate: TIMER2_ETI
+,PB10,21,I/O,"Default: PB10 Alternate: I2C0_SCL^{(3)} ,I2C1_SCL^{(5)} , SPI1_IO2^{(5)} , SPI1_SCK^{(5)}"
+HC,PB11,22,I/O,"Default: PB11 Alternate: I2C0_SDA^{(3)} ,I2C1_SDA^{(5)} , EVENTOUT, SPI1_IO3^{(5)}"
+BL,PA9,30,I/O,"Default: PA9 Alternate: USART0_TX, TIMER0_CH1, TIMER14_BRKIN^{(5)} , I2C0_SCL, CK_OUT"
+,PC13-TAMPER-RTC,2,I/O,"Default: PC13 Additional: RTC_TAMP0, RTC_TS, RTC_OUT, WKUP1"
+,PB12,25,I/O,"Default: PB12 Alternate: SPI0_NSS^{(3)} , SPI1_NSS^{(5)} , TIMER0_BRKIN, I2C1_SMBA^{(5)} , EVENTOUT"
+YH,PB13,26,I/O,"Default: PB13 Alternate: SPI0_SCK^{(3)} , SPI1_SCK^{(5)} , TIMER0_CH0_ON, I2C1_TXFRAME^{(5)} , I2C1_SCL^{(5)}"
+BH,PB14,27,I/O,"Default: PB14 Alternate: SPI0_MISO^{(3)} , SPI1_MISO^{(5)} , TIMER0_CH1_ON, TIMER14_CH0^{(5)} , I2C1_SDA^{(5)}"
+GH,PB15,28,I/O,"Default: PB15 Alternate: SPI0_MOSI^{(3)} , SPI1_MOSI^{(5)} , TIMER0_CH2_ON, TIMER14_CH0_ON^{(5)} , TIMER14_CH1^{(5)} Additional: RTC_REFIN, WKUP6"
+HB,PC14-OSC32IN,3,I/O,Default: PC14 Additional: OSC32IN
+ChargeState,PC15-OSC32OUT,4,I/O,Default: PC15 Additional: OSC32OUT
+,PF0/OSCIN,5,I/O,Default: PF0 Alternate: I2C0_SDA Additional: OSCIN
+,PF1/OSCOU T,6,I/O,Default: PF1 Alternate: I2C0_SCL Additional: OSCOUT
+,PF6,35,I/O,"Default: PF6 Alternate: I2C0_SCL^{(3)} , I2C1_SCL^{(5)}"
+,PF7,36,I/O,"Default: PF7 Alternate: I2C0_SDA^{(3)} , I2C1_SDA^{(5)}"
+,V_{DD},1,P,Default: V_{DD}
+,VDD,24,P,Default: VDD
+,VDD,48,P,Default: VDD
+,VDDA,9,P,Default: VDDA
+,PB3,39,I/O,"Default: PB3 Alternate: SPI0_SCK, I2S0_CK, EVENTOUT"
+Buzzer(Slave),PB4,40,I/O,"Default: PB4 Alternate: SPI0_MISO, I2S0_MCK, TIMER2_CH0, EVENTOUT, I2C0_TXFRAME, TIMER16_BRKIN"
+,PB5,41,I/O,"Default: PB5 Alternate: SPI0_MOSI, I2S0_SD, I2C0_SMBA, TIMER15_BRKIN, TIMER2_CH1 Additional: WKUP5"
+,PB6,42,I/O,"Default: PB6 Alternate: I2C0_SCL, USART0_TX, TIMER15_CH0_ON"
+,PB7,43,I/O,"Default: PB7 Alternate:I2C0_SDA, USART0_RX,TIMER16_CH0_ON"
+,VSS,23,P,Default: VSS
+,PB8,45,I/O,"Default: PB8 Alternate: I2C0_SCL, TIMER15_CH0"
+,PB9,46,I/O,"Default: PB9 Alternate: I2C0_SDA, IFRP_OUT, TIMER16_CH0,"
+,VSS,47,P,Default: VSS
+,VSSA,8,P,Default: VSSA
+,,,,"EVENTOUT, I2S0_MCK, SPI1_NSS^{(5)}"

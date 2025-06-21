@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "picotm1637.c": "cpp"
+    }
+}

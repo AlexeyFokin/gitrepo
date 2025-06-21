@@ -1,0 +1,6 @@
+{
+    "board": "adafruit:samd:adafruit_qtpy_m0",
+    "sketch": "WDT\\WDT.ino",
+    "port": "COM5",
+    "configuration": "opt=small,usbstack=arduino,debug=off"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/cores/rp2040"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/variants/generic"
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/TM1637-pico/build/sketch/TM1637-pico.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/TM1637-pico/build/sketch/PicoTM1637.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

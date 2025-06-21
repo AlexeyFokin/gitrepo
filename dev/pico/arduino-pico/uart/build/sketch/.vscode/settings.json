@@ -1,0 +1,7 @@
+#line 1 "/home/alexey/dev/pico/arduino-pico/uart/.vscode/settings.json"
+{
+    "files.associations": {
+        "uart2": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
+}

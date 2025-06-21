@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -O3 -shared  -o _mat.so CMakeFiles/mat.dir/CMakeFiles/mat.dir/matPYTHON_wrap.cxx.o  /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d /usr/lib/x86_64-linux-gnu/libpython3.10.so 

@@ -1,0 +1,167 @@
+@startuml
+skin rose
+title Ros Interfaces Diagram
+
+node arc_r2 {
+interface Target {
+  int32 z_target_pos
+  int32 x_target_pos
+  int32 t_target_pos
+  int32 z_best_photo_pos 0
+  int32 x_best_photo_pos 0
+  int32 t_best_photo_pos 0
+  int32 id 0
+}
+
+interface TargetFromGrc {
+  int32 z_target_pos
+  int32 x_target_pos
+  int32 t_target_pos
+  int32 z_best_photo_pos 0
+  int32 x_best_photo_pos 0
+  int32 t_best_photo_pos 0
+  int32 id 0
+  string camera
+  int32 picking_status
+  int32 attempt_number
+  int32 diameter
+  int32 distance
+}
+
+}
+
+
+node grc_r2 {
+interface TargetsFromGrcList {
+  std_msgs/Header header
+  grc_r2_interface/TargetFromGrc[] targets_grc_list
+}
+
+interface DecisionUnitDetails {
+  std_msgs/Header header
+  bool match
+  float32[] updated_target
+  float32 distance
+  string direction
+  string next_state ''
+  int32 picking_status 0
+}
+
+interface TargetFromGrc {
+  int32 z_target_pos
+  int32 x_target_pos
+  int32 t_target_pos
+  int32 z_best_photo_pos 0
+  int32 x_best_photo_pos 0
+  int32 t_best_photo_pos 0
+  int32 id 0
+  string camera
+}
+
+}
+
+
+node bootloader {
+interface UpdateProcessStatus {
+  string arm_id
+  string jetson_name
+  string process_name
+  bool run_status
+  
+}
+
+interface AvailableArmBootloader {
+  string jetson_name
+  string arm_id
+}
+
+}
+
+
+node gub_controller {
+interface SensorValue {
+  float64 value
+}
+
+}
+
+
+node close_deep_stream {
+interface RealWorldPosition {
+  float32[] real_world_position
+}
+
+interface Targets3DList {
+  close_deep_stream_interface/RealWorldPosition[] target_3d_list_msg
+}
+
+interface BlobInfo {
+  int32 area
+  int32 angle
+  int32 color
+  int32 index
+  int32 diameter
+  int32 distance
+  int32[] blob_center
+  float64[] real_world_position
+  bool has_enough_rs_data
+}
+
+interface BlobsList {
+  std_msgs/Header header
+  close_deep_stream_interface/BlobInfo[] all_blobs_list_msg
+}
+
+interface PublishCloseDetection {
+  std_msgs/Header header
+  float64[] central_blob_z_x_t
+  close_deep_stream_interface/BlobsList all_blobs
+  close_deep_stream_interface/Targets3DList detection_result
+  string text
+  bool verification
+  bool func_succeeded
+}
+
+interface DebugTimeStamp {
+  std_msgs/Header header
+  string folder_path
+  int32 detection_counter
+  int32 current_z
+  int32 current_x
+  int32 current_t
+  int32 remote_z
+  int32 remote_x
+  int32 remote_t
+}
+
+}
+
+
+node rbc_gui {
+interface MsgToScreen {
+  string arm_id
+  string jetson_name
+  string unit_name
+  string message_type
+  int32 log_level
+  string text
+}
+
+}
+
+
+node motor_unit {
+interface ActualValues {
+  int32 z_pos
+  int32 x_pos
+  int32 t_pos
+  int32 z_velocity
+  int32 x_velocity
+  int32 t_velocity
+}
+
+interface Num {
+  int64 num
+}
+
+@enduml

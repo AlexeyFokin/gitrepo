@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "../../..,../../..",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "rp2040:rp2040:generic:flash=2097152_0,freq=133,opt=Small,rtti=Disabled,stackprotect=Disabled,exceptions=Disabled,dbgport=Serial,dbglvl=Core,usbstack=picosdk,ipbtstack=ipv4only,boot2=boot2_generic_03h_2_padded_checksum,uploadmethod=picoprobe_cmsis_dap",
+  "hardwareFolders": "/home/alexey/.arduino15/packages",
+  "otherLibrariesFolders": "/home/alexey/Arduino/libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "/home/alexey/Arduino/generated_examples/ColorTemperature"
+}

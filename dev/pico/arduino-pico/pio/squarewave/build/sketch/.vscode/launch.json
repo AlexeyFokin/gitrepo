@@ -1,0 +1,29 @@
+#line 1 "/home/alexey/dev/pico/arduino-pico/pio/squarewave/.vscode/launch.json"
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pico Debug",
+            "cwd": "${workspaceRoot}",
+            //"executable": "${command:cmake.launchTargetPath}",
+            "executable": "arduino_build/uart.ino.elf",
+            //"preLaunchTask": "null",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "gdbPath": "gdb-multiarch",
+            "device": "RP2040",
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/rp2040.cfg"
+            ],
+            "svdFile": "/home/alexey/dev/pico/pico-sdk/src/rp2040/hardware_regs/rp2040.svd",
+            "runToEntryPoint": "main",
+            "postRestartCommands": [
+                "break setup",
+                "continue"
+            ]
+        },
+
+    ]
+}

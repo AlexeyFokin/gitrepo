@@ -1,0 +1,5 @@
+/home/alexey/dev/CCTag/pybind11/CMakeFiles/mat.dir
+/home/alexey/dev/CCTag/pybind11/CMakeFiles/mat_swig_compilation.dir
+/home/alexey/dev/CCTag/pybind11/CMakeFiles/test.dir
+/home/alexey/dev/CCTag/pybind11/CMakeFiles/edit_cache.dir
+/home/alexey/dev/CCTag/pybind11/CMakeFiles/rebuild_cache.dir

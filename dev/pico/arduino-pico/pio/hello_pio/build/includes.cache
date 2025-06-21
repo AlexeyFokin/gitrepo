@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/cores/rp2040"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/variants/generic"
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/hello_pio/build/sketch/hello_pio.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

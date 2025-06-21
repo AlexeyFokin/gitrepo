@@ -1,0 +1,7 @@
+#line 1 "/home/alexey/dev/pico/arduino-pico/TM1637-pico/.vscode/settings.json"
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "picotm1637.c": "cpp"
+    }
+}

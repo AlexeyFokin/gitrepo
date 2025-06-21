@@ -1,0 +1,77 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/cores/rp2040"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/variants/generic"
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/pio/quadrature/build/sketch/quadrature.ino.cpp",
+    "Include": "TFT_eSPI.h",
+    "Includepath": "/home/alexey/Arduino/libraries/TFT_eSPI"
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/pio/quadrature/build/sketch/quadrature.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/libraries/SPI/src"
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/pio/quadrature/build/sketch/quadrature.ino.cpp",
+    "Include": "LittleFS.h",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/libraries/LittleFS/src"
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/pio/quadrature/build/sketch/quadrature.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/libraries/Wire/src"
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/pio/quadrature/build/sketch/quadrature.ino.cpp",
+    "Include": "VL53L0X.h",
+    "Includepath": "/home/alexey/Arduino/libraries/VL53L0X"
+  },
+  {
+    "Sourcefile": "/home/alexey/dev/pico/arduino-pico/pio/quadrature/build/sketch/quadrature.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/TFT_eSPI/TFT_eSPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/libraries/SPI/src/SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/libraries/LittleFS/src/LittleFS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/libraries/LittleFS/src/lfs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/libraries/LittleFS/src/lfs_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/libraries/Wire/src/Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/VL53L0X/VL53L0X.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

@@ -1,0 +1,5 @@
+{
+    "configuration": "usbstack=arduino,debug=off",
+    "board": "Seeeduino:samd:seeed_XIAO_m0",
+    "sketch": "SAMD21_read_serial_ID.ino"
+}

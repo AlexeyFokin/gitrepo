@@ -1,0 +1,6 @@
+{
+    "sketch": "MultipleBlinks.ino",
+    "port": "/dev/ttyACM0",
+    "board": "arduino:mbed_rp2040:pico",
+    "output": "build"
+}

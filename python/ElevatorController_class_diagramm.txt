@@ -1,0 +1,86 @@
+@startuml
+
+skin rose
+
+title Elevator Contoller\nClass Diagram
+
+
+class ElevatorController {
+  +ext_buttons : ExtButtonDict
+  -algo : DispatchAlgo
+  -floors : int
+  -hw_ext_button: HwExtButton
+  
+  +run()
+  +get_current_floor()
+}
+
+class ExtButtonsDict
+
+class Display {
+  -hw_display: Handler
+  -floor_to_show : int
+  +update_display()
+}
+
+class ExtFloorButton {
+  +up_state : bool
+  +down_state : bool
+}
+
+class DispatchAlgo {
+  -dir : {None, 'up', 'down'}
+  +algo()
+  -is_exist_calls_upper()
+  -is_exist_calls_lower()
+}
+
+class Elevator {
+  +door_state : {'closed', 'open'}
+  -hw_elevator : HwElevator
+  -current_floor : int
+  -min_floor : int
+  -max_floor : int
+  -int_panel : IntPanel
+  
+  +go_up()
+  +go_down()
+  +stop_and_open()
+  +get_current_floor()
+  +get_int_panel()
+}
+
+class IntPanel
+
+class IntElevButton {
+  +state : bool
+  +on()
+  +off()
+}
+
+ElevatorController "1" *-down- "1" ExtButtonsDict
+ElevatorController "1" *-down- "1" Elevator
+ExtButtonsDict "1" *-down- "n" ExtFloorButton
+ElevatorController "1" *-down- "n" DispatchAlgo
+ElevatorController "1" *-down- "n" Display
+
+Elevator "1" *-down- "1" IntPanel
+IntPanel "1" *-down- "n" IntElevButton
+
+
+class HwElevator {
+  +close_door()
+  +open_door()
+  +go_up()
+  +go_down()
+  +go_to_floor()
+  +read_panel_state()
+}
+Elevator "1" -down- "1" HwElevator
+
+class HwExtButton {
+  +read()
+}
+ElevatorController "1" -down- "1" HwExtButton
+  
+@enduml

@@ -1,0 +1,10 @@
+{
+    "sketch": "my_pio.ino",
+    "port": "/dev/ttyACM0",
+    "board": "rp2040:rp2040:generic",
+    "programmer": "cmsis-dap",
+    "output": "build",
+    "prebuild": "/home/alexey/.arduino15/packages/rp2040/tools/pqt-pioasm/2.1.0-a-d3d2e6b/pioasm my_pio.pio my_pio.pio.h",
+    "postbuild": "ls -fl",
+    "configuration": "flash=2097152_0,freq=133,opt=Small,rtti=Disabled,stackprotect=Disabled,exceptions=Disabled,dbgport=Serial,dbglvl=All,usbstack=picosdk,ipbtstack=ipv4only,boot2=boot2_generic_03h_2_padded_checksum,uploadmethod=default"
+}

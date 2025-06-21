@@ -1,0 +1,9 @@
+#line 1 "/home/alexey/dev/pico/arduino-pico/TM1637-pico/.vscode/arduino.json"
+{
+    "port": "/dev/ttyACM0",
+    "board": "rp2040:rp2040:generic",
+    "prebuild": "/home/alexey/.arduino15/packages/rp2040/tools/pqt-pioasm/2.1.0-a-d3d2e6b/pioasm PicoTM1637.pio PicoTM1637.pio.h",
+    "postbuild": "ls -fl",
+    "output": "build",
+    "sketch": "TM1637-pico.ino"
+}

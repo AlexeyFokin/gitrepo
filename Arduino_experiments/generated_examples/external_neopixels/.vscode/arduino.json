@@ -1,0 +1,6 @@
+{
+    "sketch": "external_neopixels.ino",
+    "port": "COM1",
+    "board": "Seeeduino:samd:seeed_XIAO_m0",
+    "configuration": "usbstack=arduino,debug=off"
+}

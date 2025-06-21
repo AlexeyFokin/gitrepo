@@ -1,0 +1,3 @@
+/home/alexey/dev/pycctag/build/CMakeFiles/pycctag.dir
+/home/alexey/dev/pycctag/build/CMakeFiles/edit_cache.dir
+/home/alexey/dev/pycctag/build/CMakeFiles/rebuild_cache.dir

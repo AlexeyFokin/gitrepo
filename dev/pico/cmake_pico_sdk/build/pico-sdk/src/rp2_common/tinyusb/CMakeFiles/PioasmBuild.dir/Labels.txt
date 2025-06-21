@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/alexey/dev/pico/with_cmake/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

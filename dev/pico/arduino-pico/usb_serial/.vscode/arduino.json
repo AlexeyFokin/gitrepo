@@ -1,0 +1,6 @@
+{
+    "port": "/dev/ttyACM0",
+    "board": "rp2040:rp2040:generic",
+    "sketch": "usb_serial.ino",
+    "configuration": "flash=2097152_0,freq=133,opt=Small,rtti=Disabled,stackprotect=Disabled,exceptions=Disabled,dbgport=Serial,dbglvl=None,usbstack=picosdk,ipbtstack=ipv4only,boot2=boot2_generic_03h_2_padded_checksum,uploadmethod=picoprobe_cmsis_dap"
+}

@@ -1,0 +1,19 @@
+@startuml
+
+skin rose
+
+title Classes - Class Diagram
+
+
+class Dwelling {
+  +Int Windows
+  +void Lock()
+}
+
+class Apartment
+
+class House
+class Commune
+
+@enduml
+

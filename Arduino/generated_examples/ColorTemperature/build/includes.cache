@@ -1,0 +1,77 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/cores/rp2040"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alexey/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/variants/generic"
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/generated_examples/ColorTemperature/build/sketch/ColorTemperature.ino.cpp",
+    "Include": "FastLED.h",
+    "Includepath": "/home/alexey/Arduino/libraries/FastLED/src"
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/generated_examples/ColorTemperature/build/sketch/ColorTemperature.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/FastLED.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/bitswap.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/colorpalettes.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/colorutils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/hsv2rgb.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/lib8tion.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/noise.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/platforms.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/power_mgt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/alexey/Arduino/libraries/FastLED/src/wiring.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
